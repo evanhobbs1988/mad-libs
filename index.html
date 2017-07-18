@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://netdna.bootstrapcdn.com/bootswatch/3.0.3/united/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+        <title>My mad libs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1><b>Be Kind,</b> </h1>
+      <h2><i>a mad libs poem</i></h2>
+      
+<!-- start form -->
+<div id="questions">
+ 
+  <hr>
+  <form role="form">
+    <div class="form-group">
+      <label for="noun">noun</label>
+      <input id="noun" class="form-control noun" type="text" placeholder="Enter a noun">
+    </div>
+    <div class="form-group">
+      <label for="plural noun">plural noun</label>
+      <input id="plural noun" class="form-control plural noun" type="text" placeholder="Enter a plural noun">
+    </div>
+    <div class="form-group">
+      <label for="noun2">noun</label>
+      <input id="noun2" class="form-control noun2" type="text" placeholder="Enter a noun">
+    </div>
+    <div class="form-group">
+      <label for="place">place</label>
+      <input id="place" class="form-control place" type="text" placeholder="Enter a place">
+    </div>
+    <div class="form-group">
+      <label for="adjective">adjective</label>
+      <input id="adjective" class="form-control adjective" type="text" placeholder="Enter a adjective">
+    </div>
+    <div class="form-group">
+      <label for="noun3">noun</label>
+      <input id="noun3" class="form-control noun3" type="text" placeholder="noun">
+    </div>
+    <div>
+    </div>
+  </form>
+  <button id="btn-click" type="submit" class="btn btn-primary btn-lg">Create</button>
+  <hr>
+</div>
+<!-- end form -->
+<!-- start story -->
+<div id="story">
+  <h1>Be kind mad lib</h1>
+  <hr>
+  <h3>Be kind to your <span class="noun"></span>-footed <span class="plural noun"></span>
+For a duck may be somebody`s <span class="noun2"></span>,
+Be kind to your Mangos in <span class="place"></span>
+Where the weather is always <span class="adjective"></span>.
+
+You may think that this is the <span class="noun3"></span>,
+Well it is.	</h3>
+</div>
+<!-- end story -->
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
